@@ -1,0 +1,153 @@
+ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/* Base Styles
+------------------------------- */
+body {
+	background-color: #ADC2D6;
+/*
+	background-image: url(images/hotwings.png);
+	background-size: 100%;
+	opacity: .2*/
+}
+
+/* Navbuttons */
+
+a {
+	text-decoration: none;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+.navbuttons {
+	float: right;
+	font-size: 1.1em;
+	color: black;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin: 4em 2em 0em 1em;
+	position: relative;
+	top: -10em;
+}
+
+/* Logo */
+
+
+#logo {
+	width: 14%;
+	height: auto;
+	margin: 0em;
+	position: relative;
+	top: .1em;
+	left: 5em; 
+
+}
+
+header {
+	background: white;
+	width: 100em;
+	height: 24%;
+	margin: 4em 0em 0em 0em;
+}
+
+#nav_slider {
+	height: auto;
+	width: 60em;
+	margin: 0em auto;
+	padding: 0em;
+	vertical-align: middle;
+
+}
+
+.menu_images {
+	height: 14em;
+	width: auto;
+	float: left;
+	margin: 3em 2em 2em 3em;
+	
+} 
+#brkfast {
+	background: #ADC2D6 url(images/pancake.png)
+	border-radius: 50%
+	-moz-borde-radius: 50%;
+	-webkit-borde-radius: 50%;
+}
+
+#lunch {
+	background: #ADC2D6 url(images/tenders.jpg)
+	border-radius: 50%
+	-moz-borde-radius: 50%;
+	-webkit-borde-radius: 50%;
+}
+
+#dinner {
+	background: #ADC2D6 url(images/steakmushrms.jpg)
+	border-radius: 50%
+	-moz-borde-radius: 50%;
+	-webkit-borde-radius: 50%;
+}
+
+#dessert {
+	background: #ADC2D6 url(images/poundcake.jpg)
+	border-radius: 50%
+	-moz-borde-radius: 50%;
+	-webkit-borde-radius: 50%;
+}
+
+/* What's Happening-Calendar Page */
+#calendar {
+	font-size: 3em;
+	color: black;
+	font-family:;
+	margin: 2em;
+	}
+
+
+/* Contact Page */	
+
+#contact_img {
+	width: 55%;
+	height: auto;
+	float: right;
+	position: relative;
+	top: -21em;
+	left: -2em;
+}
+
+h1 {
+	color:;
+	padding: .5em 1em 1em 2em;
+	font-family: ;
+	font-size: 1.8em;
+}
+.hours {
+	font-size: 1.4em;
+	color: black;
+	font-family: ;
+	margin: 1em 1em 1em 6em;
+}
+
+#contact_address {
+	font-size: 2em;
+	color: white;
+	font-family: ;
+	margin: 1em 1em 1em 2em;
+}
+
+#info {
+	font-size: 1.5em;	
+	color: black;
+	font-family: ;
+	margin: 0em 1em 1em 2em;
+	line-height: 120%;
+	background-color:;
+	width: 200%
+	height: 5em;
+}
+
+footer {
+	font-size: 1.1em;
+	color: black;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin: 22em auto 0em auto;
+	text-align: center;
