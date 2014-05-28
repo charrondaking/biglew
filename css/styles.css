@@ -2,12 +2,20 @@
 
 /* Base Styles
 ------------------------------- */
+.background {
+	background-image: url(../images/burger.jpg);
+	width: 500%;
+	position: absolute;
+	z-index: 10;
+	padding:0;
+	margin:0;
+	opacity:.4;
+	top: 0px;
+	
+}
+
 body {
-	background-color: #ADC2D6;
-/*
-	background-image: url(images/hotwings.png);
-	background-size: 100%;
-	opacity: .2*/
+	background: #260000;
 }
 
 /* Navbuttons */
@@ -23,11 +31,13 @@ ul {
 .navbuttons {
 	float: right;
 	font-size: 1.1em;
-	color: black;
+	color: #A0C460;
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 4em 2em 0em 1em;
 	position: relative;
 	top: -10em;
+	z-index: 100;
+	opacity:1.0;
 }
 
 /* Logo */
@@ -40,58 +50,76 @@ ul {
 	position: relative;
 	top: .1em;
 	left: 5em; 
-
+	z-index: 100;
+	opacity: 1.0;
+	
 }
 
 header {
 	background: white;
-	width: 100em;
+	width: 100%;
 	height: 24%;
 	margin: 4em 0em 0em 0em;
+	z-index: 80;
 }
 
+/* Carousel Slider */
 #nav_slider {
 	height: auto;
-	width: 60em;
+	width: 980px;
 	margin: 0em auto;
 	padding: 0em;
-	vertical-align: middle;
-
 }
 
+ #carousel {
+        width:960px;
+        height:auto;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+  
+/* Menu */
 .menu_images {
-	height: 14em;
-	width: auto;
-	float: left;
-	margin: 3em 2em 2em 3em;
-	
-} 
-#brkfast {
-	background: #ADC2D6 url(images/pancake.png)
-	border-radius: 50%
+	background: #ADC2D6;
+	border-radius: 50%;
 	-moz-borde-radius: 50%;
 	-webkit-borde-radius: 50%;
+	height: 12em;
+	width: auto;
+	float: left;
+	margin: 3em 1em 1em 1em;	
+} 
+
+#brkfast {
+	
 }
 
 #lunch {
-	background: #ADC2D6 url(images/tenders.jpg)
-	border-radius: 50%
-	-moz-borde-radius: 50%;
-	-webkit-borde-radius: 50%;
+	
 }
 
 #dinner {
-	background: #ADC2D6 url(images/steakmushrms.jpg)
-	border-radius: 50%
-	-moz-borde-radius: 50%;
-	-webkit-borde-radius: 50%;
+	
 }
 
 #dessert {
-	background: #ADC2D6 url(images/poundcake.jpg)
-	border-radius: 50%
-	-moz-borde-radius: 50%;
-	-webkit-borde-radius: 50%;
+	
 }
 
 /* What's Happening-Calendar Page */
@@ -147,7 +175,7 @@ h1 {
 
 footer {
 	font-size: 1.1em;
-	color: black;
+	color: #A0C460;
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin: 22em auto 0em auto;
 	text-align: center;
